@@ -1,0 +1,8 @@
+---
+- name: Ansible Pull Model demo
+  hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: Print a message using pull
+      debug:
+        msg: "Hello from ansible-pull!"
